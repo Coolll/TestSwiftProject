@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GRDB.swift (5.16.0):
+    - GRDB.swift/standard (= 5.16.0)
+  - GRDB.swift/standard (5.16.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - GRDB.swift (~> 5.16.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - GRDB.swift
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GRDB.swift: 180e55fec683c77c917dc80db33e1e4d472ec83d
+
+PODFILE CHECKSUM: 0fb323992b0651b7e9c5143dd9197cdf33b9d8c3
+
+COCOAPODS: 1.11.3
