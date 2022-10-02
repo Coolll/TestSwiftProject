@@ -122,164 +122,29 @@ extension UIColor {
         static let sky         = UIColor(hex: 0x52A8FF)!
         static let sky_light2  = UIColor(hex: 0xD0E8FF)!
 
-        static let chipsDarkModelColor = [
-            (tagColor:tiffany, titleColor:grey6, iconColor:tiffany_light2, lineColor:tiffany),
-            (tagColor:blue, titleColor:grey6, iconColor:blue_light2, lineColor:blue),
-            (tagColor:red, titleColor:grey6, iconColor:red_light2, lineColor:red),
-            (tagColor:orange, titleColor:grey6, iconColor:orange_light2, lineColor:orange),
-            (tagColor:yellow, titleColor:grey6, iconColor:yellow_light2, lineColor:yellow),
-            (tagColor:green, titleColor:grey6, iconColor:green_light2, lineColor:green),
-            (tagColor:peacock, titleColor:grey6, iconColor:peacock_light2, lineColor:peacock),
-            (tagColor:bluishViolet, titleColor:grey6, iconColor:bluishViolet_light2, lineColor:bluishViolet),
-            (tagColor:purple, titleColor:grey6, iconColor:purple_light2, lineColor:purple),
-            (tagColor:pink, titleColor:grey6, iconColor:pink_light2, lineColor:pink),
-            (tagColor:grass, titleColor:grey6, iconColor:grass_light2, lineColor:grass),
-            (tagColor:sky, titleColor:grey6, iconColor:sky_light2, lineColor:sky),
-            (tagColor:carmine, titleColor:grey6, iconColor:carmine_light2, lineColor:carmine)
-        ]
-        static let chipsLightModeColor = [
-            (tagColor:tiffany_light2, titleColor:tiffany_dark1, iconColor:tiffany_dark1, lineColor:grey6),
-            (tagColor:blue_light2, titleColor:blue_dark1, iconColor:blue_dark1, lineColor:grey6),
-            (tagColor:red_light2, titleColor:red_dark1, iconColor:red_dark1, lineColor:grey6),
-            (tagColor:orange_light2, titleColor:orange_dark1, iconColor:orange_dark1, lineColor:grey6),
-            (tagColor:yellow_light2, titleColor:yellow_dark1, iconColor:yellow_dark1, lineColor:grey6),
-            (tagColor:green_light2, titleColor:green_dark1, iconColor:green_dark1, lineColor:grey6),
-            (tagColor:peacock_light2, titleColor:peacock_dark1, iconColor:peacock_dark1, lineColor:grey6),
-            (tagColor:bluishViolet_light2, titleColor:bluishViolet_dark1, iconColor:bluishViolet_dark1, lineColor:grey6),
-            (tagColor:purple_light2, titleColor:purple_dark1, iconColor:purple_dark1, lineColor:grey6),
-            (tagColor:pink_light2, titleColor:pink_dark1, iconColor:pink_dark1, lineColor:grey6),
-            (tagColor:grass_light2, titleColor:grass_dark1, iconColor:grass_dark1, lineColor:grey6),
-            (tagColor:sky_light2, titleColor:sky_dark1, iconColor:sky_dark1, lineColor:grey6),
-            (tagColor:carmine_light2, titleColor:carmine_dark1, iconColor:carmine_dark1, lineColor:grey6)
-        ]
-
-        static let chipsColor = chipsDarkModelColor + chipsLightModeColor
-
         // default color
         static let backgroundColor = grey6
-
-        static let colorMap = [
-            "blueDarkest": blue,
-            "skyDarkest": sky,
-            "peacockDarkest": peacock,
-            "tiffanyDarkest": tiffany,
-            "greenDarkest": green,
-            "grassDarkest": grass,
-            "yellowDarkest": yellow,
-            "orangeDarkest": orange,
-            "redDarkest": red,
-            "pinkDarkest": pink,
-            "carmineDarkest": carmine,
-            "purpleDarkest": purple,
-            "bluishVioletDarkest": bluishViolet,
-            "greyDarkest": grey,
-            "blackDarkest": grey_dark1,
-
-            "blueLightest": blue_light2,
-            "skyLightest": sky_light2,
-            "peacockLightest": peacock_light2,
-            "tiffanyLightest": tiffany_light2,
-            "greenLightest": green_light2,
-            "grassLightest": grass_light2,
-            "yellowLightest": yellow_light2,
-            "orangeLightest": orange_light2,
-            "redLightest": red_light2,
-            "pinkLightest": pink_light2,
-            "carmineLightest": carmine_light2,
-            "purpleLightest": purple_light2,
-            "bluishVioletLightest": bluishViolet_light2,
-            "greyLightest": grey_light4,
-            "blackLightest": grey_light2
-        ]
-
-        // 待办相关颜色映射
-        static let taskStatusColorMap = [
-            "blueDarkest": blue,
-            "skyDarkest": sky,
-            "peacockDarkest": peacock,
-            "tiffanyDarkest": tiffany,
-            "greenDarkest": green,
-            "grassDarkest": grass,
-            "yellowDarkest": yellow,
-            "orangeDarkest": orange,
-            "redDarkest": red,
-            "pinkDarkest": pink,
-            "carmineDarkest": carmine,
-            "purpleDarkest": purple,
-            "bluishVioletDarkest": bluishViolet,
-            "greyDarkest": grey,
-            "zx": grey_dark1,
-
-            "blueLightest": blue_light2,
-            "skyLightest": sky_light2,
-            "peacockLightest": peacock_light2,
-            "tiffanyLightest": tiffany_light2,
-            "greenLightest": green_light2,
-            "grassLightest": grass_light2,
-            "yellowLightest": yellow_light2,
-            "orangeLightest": orange_light2,
-            "redLightest": red_light2,
-            "pinkLightest": pink_light2,
-            "carmineLightest": carmine_light2,
-            "purpleLightest": purple_light2,
-            "bluishVioletLightest": bluishViolet_light2,
-            "greyLightest": grey_light4,
-            "blackLightest": grey_light2
-        ]
-
-        static let colorForTextMap = [
-            "blueDarkest": grey6,
-            "skyDarkest": grey6,
-            "peacockDarkest": grey6,
-            "tiffanyDarkest": grey6,
-            "greenDarkest": grey6,
-            "grassDarkest": grey6,
-            "yellowDarkest": grey6,
-            "orangeDarkest": grey6,
-            "redDarkest": grey6,
-            "pinkDarkest": grey6,
-            "carmineDarkest": grey6,
-            "purpleDarkest": grey6,
-            "bluishVioletDarkest": grey6,
-            "greyDarkest": grey6,
-            "blackDarkest": grey6,
-
-            "blueLightest": blue_dark1,
-            "skyLightest": sky_dark1,
-            "peacockLightest": peacock_dark1,
-            "tiffanyLightest": tiffany_dark1,
-            "greenLightest": green_dark1,
-            "grassLightest": grass_dark1,
-            "yellowLightest": yellow_dark1,
-            "orangeLightest": orange_dark1,
-            "redLightest": red_dark1,
-            "pinkLightest": pink_dark1,
-            "carmineLightest": carmine_dark1,
-            "purpleLightest": purple_dark1,
-            "bluishVioletLightest": bluishViolet_dark1,
-            "greyLightest": grey,
-            "blackLightest": grey_dark1
-        ]
     }
-
+    
     static func customColor(_ fromString: String?) -> UIColor {
-        guard let color = Custom.colorMap[fromString ?? ""] else {
-            return Custom.blue
+        if fromString?.isEmpty == true {
+            return Custom.grey6
         }
-        return color
-    }
-
-    static func customTaskStausColor(_ fromString: String?) -> UIColor {
-        guard let color = Custom.taskStatusColorMap[fromString ?? ""] else {
-            return .black
+        if let colorString = fromString {
+            if colorString.contains(",") {
+                let colorArray = colorString.components(separatedBy: ",")
+                if colorArray.count == 3 {
+                    let redString = colorArray[0]
+                    let greenString = colorArray[1]
+                    let blueString = colorArray[2]
+                    let redValue: Int = Int(NSString.init(string: redString).intValue)
+                    let greenValue: Int = Int(NSString.init(string: greenString).intValue)
+                    let blueValue: Int = Int(NSString.init(string: blueString).intValue)
+                    
+                    return UIColor.init(red: CGFloat(redValue)/255.0, green: CGFloat(greenValue)/255.0, blue: CGFloat(blueValue)/255.0, alpha: 1.0)
+                }
+            }
         }
-        return color
-    }
-
-    static func customTextColorWithBgColor(_ fromString: String?) -> UIColor {
-        guard let color = Custom.colorForTextMap[fromString ?? ""] else {
-            return .white
-        }
-        return color
+        return Custom.grey6
     }
 }

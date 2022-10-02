@@ -21,7 +21,17 @@ class BaseViewController: UIViewController {
     var isPresentNavi = false
     var sendNaviBarToBackend = false
     let effectView = UIVisualEffectView(effect: UIBlurEffect(style: .light))
-
+    private var currentModeColor: UIColor?
+    var curModeColor: UIColor {
+        get {
+            if let modeColor = self.currentModeColor  {
+                return modeColor
+            }
+            self.currentModeColor = publicCurrentModeColor()
+            return publicCurrentModeColor()
+        }
+    }
+    
     var titleForNavi: String? = "" {
         didSet {
             customTitle?.text = titleForNavi ?? ""

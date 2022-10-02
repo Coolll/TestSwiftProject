@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TestSwiftProject
+
+  Created by 龙培 on 2022/9/22.
+  
+*/
+"home_title" = "逃跑计划";
+"mock_calling" = "模拟来电";
+"mock_message" = "模拟消息";
+"mock_low_power" = "模拟低电量";
+
+"calling_item_phone" = "来电号码";
+"calling_item_nickname" = "来电昵称";
+"calling_item_group" = "来电分组";
+"calling_item_address" = "号码归属地（可选填）";

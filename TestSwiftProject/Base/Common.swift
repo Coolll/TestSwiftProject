@@ -22,3 +22,14 @@ public func isChineseLanguage() -> Bool {
     let lan = allLanguages.first
     return lan?.starts(with: "zh") ?? true
 }
+
+public func publicCurrentModeColor() -> UIColor {
+    let userDefault = UserDefaults.standard
+    let curMode: String = userDefault.object(forKey: "AppCurrentModeString") as? String ?? "default"
+    if curMode == "blue" {
+        return UIColor.init(red: 0.3, green: 0.4, blue: 0.7, alpha: 0.8)
+    }
+    return UIColor.init(red: 0.4, green: 0.3, blue: 0.9, alpha: 0.8)
+
+
+}

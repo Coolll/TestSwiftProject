@@ -1,18 +1,19 @@
 //
-//  HomeViewController.swift
+//  MockMessageViewController.swift
 //  TestSwiftProject
 //
-//  Created by 龙培 on 2022/9/20.
+//  Created by 龙培 on 2022/9/22.
 //
 
 import UIKit
 
-class HomeViewController: BaseViewController {
+class MockMessageController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.Custom.grey3
-        // Do any additional setup after loading the view.
+
+        titleForNavi = String.globalString("mock_message")
+        view.backgroundColor = UIColor.Custom.orange
     }
     
 

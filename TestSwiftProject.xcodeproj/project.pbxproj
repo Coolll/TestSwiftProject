@@ -123,8 +123,19 @@
 		0743212F28D9B7D4008B3B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743212C28D9B7D4008B3B89 /* ViewController.swift */; };
 		0743213028D9B7D4008B3B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743212D28D9B7D4008B3B89 /* AppDelegate.swift */; };
 		0743213128D9B7D4008B3B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743212E28D9B7D4008B3B89 /* SceneDelegate.swift */; };
-		0743213428D9B88A008B3B89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743213328D9B88A008B3B89 /* HomeViewController.swift */; };
 		0743213628D9B927008B3B89 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743213528D9B927008B3B89 /* BaseNavigationController.swift */; };
+		0743213E28DBFE01008B3B89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0743214028DBFE01008B3B89 /* Localizable.strings */; };
+		0743214328DC030F008B3B89 /* WLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743214228DC030F008B3B89 /* WLString.swift */; };
+		0743214928DC062F008B3B89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743214728DC062F008B3B89 /* HomeViewController.swift */; };
+		0743214B28DC065D008B3B89 /* WLHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743214A28DC065D008B3B89 /* WLHomeCollectionViewCell.swift */; };
+		0743214D28DC08A4008B3B89 /* HomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743214C28DC08A4008B3B89 /* HomeItemModel.swift */; };
+		0743214F28DC0955008B3B89 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743214E28DC0955008B3B89 /* HomeViewModel.swift */; };
+		0743215128DC3283008B3B89 /* MockCallingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215028DC3283008B3B89 /* MockCallingController.swift */; };
+		0743215328DC329B008B3B89 /* MockMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215228DC329B008B3B89 /* MockMessageController.swift */; };
+		0743215528DC32BD008B3B89 /* MockLowPowerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215428DC32BD008B3B89 /* MockLowPowerController.swift */; };
+		0743215728DC5C49008B3B89 /* WLInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215628DC5C49008B3B89 /* WLInputCell.swift */; };
+		0743215928DC5E27008B3B89 /* WLInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215828DC5E27008B3B89 /* WLInputModel.swift */; };
+		0743215B28DDA812008B3B89 /* WLCallingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */; };
 		3891ECA8720C5DC8B96AAA41 /* libPods-TestSwiftProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D90D7A8F10E7E1A2F82DD7 /* libPods-TestSwiftProject.a */; };
 /* End PBXBuildFile section */
 
@@ -148,10 +159,8 @@
 /* Begin PBXFileReference section */
 		06C526117B6A388979F2BCED /* Pods-TestSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-TestSwiftProject/Pods-TestSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		07431FCA28D96797008B3B89 /* TestSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07431FD428D96797008B3B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07431FD728D96797008B3B89 /* TestSwiftProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestSwiftProject.xcdatamodel; sourceTree = "<group>"; };
 		07431FD928D9679A008B3B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07431FDC28D9679A008B3B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07431FDE28D9679A008B3B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07431FE328D9679A008B3B89 /* TestSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07431FE728D9679A008B3B89 /* TestSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftProjectTests.swift; sourceTree = "<group>"; };
@@ -267,8 +276,22 @@
 		0743212C28D9B7D4008B3B89 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0743212D28D9B7D4008B3B89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0743212E28D9B7D4008B3B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0743213328D9B88A008B3B89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0743213528D9B927008B3B89 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0743213A28DBFD88008B3B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0743213B28DBFD88008B3B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0743213F28DBFE01008B3B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0743214128DBFE0D008B3B89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0743214228DC030F008B3B89 /* WLString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLString.swift; sourceTree = "<group>"; };
+		0743214728DC062F008B3B89 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0743214A28DC065D008B3B89 /* WLHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0743214C28DC08A4008B3B89 /* HomeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemModel.swift; sourceTree = "<group>"; };
+		0743214E28DC0955008B3B89 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0743215028DC3283008B3B89 /* MockCallingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCallingController.swift; sourceTree = "<group>"; };
+		0743215228DC329B008B3B89 /* MockMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessageController.swift; sourceTree = "<group>"; };
+		0743215428DC32BD008B3B89 /* MockLowPowerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLowPowerController.swift; sourceTree = "<group>"; };
+		0743215628DC5C49008B3B89 /* WLInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLInputCell.swift; sourceTree = "<group>"; };
+		0743215828DC5E27008B3B89 /* WLInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLInputModel.swift; sourceTree = "<group>"; };
+		0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLCallingViewModel.swift; sourceTree = "<group>"; };
 		91D90D7A8F10E7E1A2F82DD7 /* libPods-TestSwiftProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSwiftProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE2DBDC59C613E7084C9A2 /* Pods-TestSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-TestSwiftProject/Pods-TestSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -328,6 +351,7 @@
 				0743200028D9AD81008B3B89 /* Base */,
 				0743213228D9B86D008B3B89 /* Section */,
 				0743204B28D9B192008B3B89 /* Util */,
+				0743213728DBFCE1008B3B89 /* Resource */,
 				07431FD328D96797008B3B89 /* Main.storyboard */,
 				07431FD928D9679A008B3B89 /* Assets.xcassets */,
 				07431FDB28D9679A008B3B89 /* LaunchScreen.storyboard */,
@@ -370,6 +394,7 @@
 				0743212728D9B24E008B3B89 /* Constants.swift */,
 				0743212928D9B47B008B3B89 /* Fonts.swift */,
 				0743212528D9B21B008B3B89 /* Colors.swift */,
+				0743214228DC030F008B3B89 /* WLString.swift */,
 				0743204C28D9B192008B3B89 /* Extension */,
 			);
 			path = Util;
@@ -608,9 +633,58 @@
 		0743213228D9B86D008B3B89 /* Section */ = {
 			isa = PBXGroup;
 			children = (
-				0743213328D9B88A008B3B89 /* HomeViewController.swift */,
+				0743214428DC062F008B3B89 /* Home */,
 			);
 			path = Section;
+			sourceTree = "<group>";
+		};
+		0743213728DBFCE1008B3B89 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0743214028DBFE01008B3B89 /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0743214428DC062F008B3B89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0743214628DC062F008B3B89 /* Controller */,
+				0743214828DC062F008B3B89 /* View */,
+				0743214528DC062F008B3B89 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0743214528DC062F008B3B89 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0743214E28DC0955008B3B89 /* HomeViewModel.swift */,
+				0743214C28DC08A4008B3B89 /* HomeItemModel.swift */,
+				0743215828DC5E27008B3B89 /* WLInputModel.swift */,
+				0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0743214628DC062F008B3B89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0743214728DC062F008B3B89 /* HomeViewController.swift */,
+				0743215028DC3283008B3B89 /* MockCallingController.swift */,
+				0743215228DC329B008B3B89 /* MockMessageController.swift */,
+				0743215428DC32BD008B3B89 /* MockLowPowerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0743214828DC062F008B3B89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0743214A28DC065D008B3B89 /* WLHomeCollectionViewCell.swift */,
+				0743215628DC5C49008B3B89 /* WLInputCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		718C479CABC462E2CF939437 /* Frameworks */ = {
@@ -716,7 +790,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
 			);
 			mainGroup = 07431FC128D96797008B3B89;
 			productRefGroup = 07431FCB28D96797008B3B89 /* Products */;
@@ -736,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07431FDD28D9679A008B3B89 /* LaunchScreen.storyboard in Resources */,
+				0743213E28DBFE01008B3B89 /* Localizable.strings in Resources */,
 				07431FDA28D9679A008B3B89 /* Assets.xcassets in Resources */,
 				07431FD528D96797008B3B89 /* Main.storyboard in Resources */,
 			);
@@ -801,7 +876,10 @@
 				074320DC28D9B193008B3B89 /* UIViewExtensions.swift in Sources */,
 				0743210F28D9B193008B3B89 /* SignedNumericExtensions.swift in Sources */,
 				074320F428D9B193008B3B89 /* NSPredicateExtensions.swift in Sources */,
+				0743215328DC329B008B3B89 /* MockMessageController.swift in Sources */,
 				0743210228D9B193008B3B89 /* SKNodeExtensions.swift in Sources */,
+				0743214F28DC0955008B3B89 /* HomeViewModel.swift in Sources */,
+				0743215928DC5E27008B3B89 /* WLInputModel.swift in Sources */,
 				0743210B28D9B193008B3B89 /* FloatExtensions.swift in Sources */,
 				074320DE28D9B193008B3B89 /* UIWindowExtensions.swift in Sources */,
 				0743212228D9B193008B3B89 /* NSImageExtensions.swift in Sources */,
@@ -817,14 +895,17 @@
 				074320C728D9B192008B3B89 /* CGColorExtensions.swift in Sources */,
 				074320D728D9B193008B3B89 /* UIActivityExtensions.swift in Sources */,
 				074320D228D9B193008B3B89 /* UIBarButtonItemExtensions.swift in Sources */,
+				0743214328DC030F008B3B89 /* WLString.swift in Sources */,
 				074320ED28D9B193008B3B89 /* SCNGeometryExtensions.swift in Sources */,
 				0743210928D9B193008B3B89 /* StringProtocolExtensions.swift in Sources */,
+				0743215528DC32BD008B3B89 /* MockLowPowerController.swift in Sources */,
 				074320C128D9B192008B3B89 /* CGRectExtensions.swift in Sources */,
 				074320CC28D9B192008B3B89 /* UITextFieldExtensions.swift in Sources */,
 				0743210C28D9B193008B3B89 /* KeyedDecodingContainerExtensions.swift in Sources */,
 				0743211B28D9B193008B3B89 /* CollectionExtensions.swift in Sources */,
 				074320C328D9B192008B3B89 /* CGVectorExtensions.swift in Sources */,
 				0743211928D9B193008B3B89 /* RangeReplaceableCollectionExtensions.swift in Sources */,
+				0743214928DC062F008B3B89 /* HomeViewController.swift in Sources */,
 				0743210328D9B193008B3B89 /* MKMapViewExtensions.swift in Sources */,
 				0743212628D9B21B008B3B89 /* Colors.swift in Sources */,
 				0743211A28D9B193008B3B89 /* OptionalExtensions.swift in Sources */,
@@ -834,7 +915,10 @@
 				0743210128D9B193008B3B89 /* ColorExtensions.swift in Sources */,
 				074320EE28D9B193008B3B89 /* SCNVector3Extensions.swift in Sources */,
 				074320C228D9B192008B3B89 /* CGFloatExtensions.swift in Sources */,
+				0743214D28DC08A4008B3B89 /* HomeItemModel.swift in Sources */,
+				0743215B28DDA812008B3B89 /* WLCallingViewModel.swift in Sources */,
 				074320DA28D9B193008B3B89 /* UIImageExtensions.swift in Sources */,
+				0743215128DC3283008B3B89 /* MockCallingController.swift in Sources */,
 				0743210728D9B193008B3B89 /* ComparableExtensions.swift in Sources */,
 				074320E628D9B193008B3B89 /* UIFontExtensions.swift in Sources */,
 				074320F828D9B193008B3B89 /* URLRequestExtensions.swift in Sources */,
@@ -843,6 +927,7 @@
 				074320D628D9B193008B3B89 /* UINavigationBarExtensions.swift in Sources */,
 				074320D128D9B193008B3B89 /* UITextViewExtensions.swift in Sources */,
 				074320D928D9B193008B3B89 /* UIViewControllerExtensions.swift in Sources */,
+				0743215728DC5C49008B3B89 /* WLInputCell.swift in Sources */,
 				074320DD28D9B193008B3B89 /* UIGestureRecognizerExtensions.swift in Sources */,
 				074320E828D9B193008B3B89 /* UIColorExtensions.swift in Sources */,
 				07431FD828D96797008B3B89 /* TestSwiftProject.xcdatamodeld in Sources */,
@@ -865,7 +950,6 @@
 				074320D428D9B193008B3B89 /* UITabBarExtensions.swift in Sources */,
 				074320CD28D9B192008B3B89 /* UILayoutPriorityExtensions.swift in Sources */,
 				0743210828D9B193008B3B89 /* ArrayExtensions.swift in Sources */,
-				0743213428D9B88A008B3B89 /* HomeViewController.swift in Sources */,
 				074320C628D9B192008B3B89 /* CGPointExtensions.swift in Sources */,
 				0743210528D9B193008B3B89 /* SignedIntegerExtensions.swift in Sources */,
 				074320C028D9B192008B3B89 /* SKProductExtensions.swift in Sources */,
@@ -882,6 +966,7 @@
 				074320E028D9B193008B3B89 /* UISwitchExtensions.swift in Sources */,
 				074320C928D9B192008B3B89 /* UISearchBarExtensions.swift in Sources */,
 				074320F328D9B193008B3B89 /* SCNCapsuleExtensions.swift in Sources */,
+				0743214B28DC065D008B3B89 /* WLHomeCollectionViewCell.swift in Sources */,
 				074320D028D9B193008B3B89 /* UICollectionViewExtensions.swift in Sources */,
 				0743212A28D9B47B008B3B89 /* Fonts.swift in Sources */,
 				0743213128D9B7D4008B3B89 /* SceneDelegate.swift in Sources */,
@@ -938,7 +1023,7 @@
 		07431FD328D96797008B3B89 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07431FD428D96797008B3B89 /* Base */,
+				0743213A28DBFD88008B3B89 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -946,9 +1031,18 @@
 		07431FDB28D9679A008B3B89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07431FDC28D9679A008B3B89 /* Base */,
+				0743213B28DBFD88008B3B89 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0743214028DBFE01008B3B89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0743213F28DBFE01008B3B89 /* en */,
+				0743214128DBFE0D008B3B89 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -958,6 +1052,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1018,6 +1113,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

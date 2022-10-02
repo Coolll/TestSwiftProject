@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  TestSwiftProject
+
+  Created by 龙培 on 2022/9/22.
+  
+*/
+"home_title" = "Escape";
+"mock_calling" = "Mock Calling";
+"mock_message" = "Mock Message";
+"mock_low_power" = "Mock Low Power";
+
+"calling_item_phone" = "Phone Number";
+"calling_item_nickname" = "Nickname";
+"calling_item_group" = "Contact Group";
+"calling_item_address" = "Phone Address (optional)";
+

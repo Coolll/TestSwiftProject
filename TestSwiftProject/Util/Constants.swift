@@ -13,7 +13,7 @@ public struct Constants {
     static var ScreenHeight = UIScreen.main.bounds.height
 
     static let isChinese: Bool = isChineseLanguage()
-
+    
     static var isInDebugMode: Bool {
       #if DEBUG
         return true
