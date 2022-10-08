@@ -21,4 +21,18 @@ public struct Constants {
         return false
       #endif
     }
+    
+    static let KeyWindow = UIApplication.shared.connectedScenes
+        .compactMap { $0 as? UIWindowScene }
+        .flatMap { $0.windows }
+        .first(where: { $0.isKeyWindow })
+    
 }
+
+public func endEditing() {
+    Constants.KeyWindow?.endEditing(true)
+}
+
+
+
+

@@ -10,7 +10,18 @@
 "mock_message" = "模拟消息";
 "mock_low_power" = "模拟低电量";
 
+"public_done" = "完成";
+
 "calling_item_phone" = "来电号码";
+"calling_item_phone_placeholder" = "请输入来电号码";
 "calling_item_nickname" = "来电昵称";
+"calling_item_nickname_placeholder" = "请输入来电昵称";
 "calling_item_group" = "来电分组";
-"calling_item_address" = "号码归属地（可选填）";
+"calling_item_group_placeholder" = "请输入来电的分组";
+"calling_item_address" = "号码归属地（选填）";
+"calling_item_address_placeholder" = "请输入来电号码归属地";
+
+"calling_remind_me" = "稍后提醒我";
+"calling_message" = "短信";
+"calling_decline" = "拒接";
+"calling_accept" = "接听";

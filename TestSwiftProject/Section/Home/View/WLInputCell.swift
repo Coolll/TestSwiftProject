@@ -19,17 +19,23 @@ class WLInputCell: UITableViewCell {
     
     func loadCustomView() {
         if icon == nil {
+            let line = UIView.init()
+            line.frame = CGRect(x: 0, y: 0, width: Constants.ScreenWidth, height: 0.5)
+            line.backgroundColor = UIColor.Custom.grey4
+            self.contentView.addSubview(line)
+
             icon = UIImageView.init()
-            icon?.frame = CGRect(x: 8, y: 8, width: 20, height: 20)
+            icon?.frame = CGRect(x: 16, y: 16, width: 20, height: 20)
             self.contentView.addSubview(icon!)
             
             titleLabel = UILabel.init()
-            titleLabel?.frame = CGRect(x: icon!.right + 4.0, y: 8, width: 150, height: 20)
+            titleLabel?.frame = CGRect(x: icon!.right + 4.0, y: 16, width: 250, height: 20)
             titleLabel?.font = UIFont.Custom.h4_regular
             self.contentView.addSubview(titleLabel!)
             
+            
             inputTextField = UITextField.init()
-            inputTextField?.frame = CGRect(x: 8, y: titleLabel!.bottom + 8.0, width: Constants.ScreenWidth - 32.0, height: 24.0)
+            inputTextField?.frame = CGRect(x: 16, y: titleLabel!.bottom + 12.0, width: Constants.ScreenWidth - 32.0, height: 24.0)
             self.contentView.addSubview(inputTextField!)
             
         }
@@ -39,6 +45,11 @@ class WLInputCell: UITableViewCell {
             titleLabel?.text = model.title
             inputTextField?.placeholder = model.placeHolderStr
             inputTextField?.text = model.inputContent
+            if model.inputType == .phoneNumber {
+                inputTextField?.keyboardType = .phonePad
+            } else {
+                inputTextField?.keyboardType = .default
+            }
         }
     }
 

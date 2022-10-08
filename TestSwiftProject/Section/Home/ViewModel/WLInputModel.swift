@@ -6,10 +6,14 @@
 //
 
 import UIKit
-
+enum WLInputType {
+    case normal
+    case phoneNumber
+}
 class WLInputModel: NSObject {
     var iconName: String = ""
     var title: String = ""
     var placeHolderStr: String = ""
     var inputContent: String = ""
+    var inputType: WLInputType = .normal
 }

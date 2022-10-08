@@ -182,13 +182,17 @@ class BaseViewController: UIViewController {
     }
 
     func loadNaviHeight() -> CGFloat {
+        let safeArea: CGFloat = UIApplication.shared.windows.last?.safeAreaInsets.top ?? 0
+
         if needHideNavi {
-            return 0
+            if safeArea < 20 {
+                return 20
+            }
+            return safeArea
         }
         if isPresentNavi {
             return 54
         }
-        let safeArea: CGFloat = UIApplication.shared.windows.last?.safeAreaInsets.top ?? 0
         if safeArea < 20 {
             return 20 + 44
         }

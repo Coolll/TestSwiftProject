@@ -10,8 +10,20 @@
 "mock_message" = "Mock Message";
 "mock_low_power" = "Mock Low Power";
 
-"calling_item_phone" = "Phone Number";
-"calling_item_nickname" = "Nickname";
-"calling_item_group" = "Contact Group";
-"calling_item_address" = "Phone Address (optional)";
+"public_done" = "Done";
 
+
+
+"calling_item_phone" = "Phone Number";
+"calling_item_phone_placeholder" = "Please input the phone NO.";
+"calling_item_nickname" = "Nickname";
+"calling_item_nickname_placeholder" = "Please input the nickname of this call";
+"calling_item_group" = "Contact Group";
+"calling_item_group_placeholder" = "Please input the group of this call";
+"calling_item_address" = "Phone Address (optional)";
+"calling_item_address_placeholder" = "Please input the address of this call";
+
+"calling_remind_me" = "Remind Me";
+"calling_message" = "Message";
+"calling_decline" = "Decline";
+"calling_accept" = "Accept";

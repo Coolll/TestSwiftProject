@@ -136,6 +136,10 @@
 		0743215728DC5C49008B3B89 /* WLInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215628DC5C49008B3B89 /* WLInputCell.swift */; };
 		0743215928DC5E27008B3B89 /* WLInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215828DC5E27008B3B89 /* WLInputModel.swift */; };
 		0743215B28DDA812008B3B89 /* WLCallingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */; };
+		0743222F28E989D2008B3B89 /* WLCallingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743222E28E989D2008B3B89 /* WLCallingController.swift */; };
+		0743223128EAA281008B3B89 /* WLCallingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0743223028EAA281008B3B89 /* WLCallingModel.swift */; };
+		0743223428EBEF32008B3B89 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0743223228EBEF32008B3B89 /* music.mp3 */; };
+		0743223528EBEF32008B3B89 /* musicNew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0743223328EBEF32008B3B89 /* musicNew.mp3 */; };
 		3891ECA8720C5DC8B96AAA41 /* libPods-TestSwiftProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D90D7A8F10E7E1A2F82DD7 /* libPods-TestSwiftProject.a */; };
 /* End PBXBuildFile section */
 
@@ -292,6 +296,10 @@
 		0743215628DC5C49008B3B89 /* WLInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLInputCell.swift; sourceTree = "<group>"; };
 		0743215828DC5E27008B3B89 /* WLInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLInputModel.swift; sourceTree = "<group>"; };
 		0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLCallingViewModel.swift; sourceTree = "<group>"; };
+		0743222E28E989D2008B3B89 /* WLCallingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLCallingController.swift; sourceTree = "<group>"; };
+		0743223028EAA281008B3B89 /* WLCallingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLCallingModel.swift; sourceTree = "<group>"; };
+		0743223228EBEF32008B3B89 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		0743223328EBEF32008B3B89 /* musicNew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicNew.mp3; sourceTree = "<group>"; };
 		91D90D7A8F10E7E1A2F82DD7 /* libPods-TestSwiftProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSwiftProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE2DBDC59C613E7084C9A2 /* Pods-TestSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-TestSwiftProject/Pods-TestSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -641,6 +649,8 @@
 		0743213728DBFCE1008B3B89 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				0743223228EBEF32008B3B89 /* music.mp3 */,
+				0743223328EBEF32008B3B89 /* musicNew.mp3 */,
 				0743214028DBFE01008B3B89 /* Localizable.strings */,
 			);
 			path = Resource;
@@ -663,6 +673,7 @@
 				0743214C28DC08A4008B3B89 /* HomeItemModel.swift */,
 				0743215828DC5E27008B3B89 /* WLInputModel.swift */,
 				0743215A28DDA812008B3B89 /* WLCallingViewModel.swift */,
+				0743223028EAA281008B3B89 /* WLCallingModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -674,6 +685,7 @@
 				0743215028DC3283008B3B89 /* MockCallingController.swift */,
 				0743215228DC329B008B3B89 /* MockMessageController.swift */,
 				0743215428DC32BD008B3B89 /* MockLowPowerController.swift */,
+				0743222E28E989D2008B3B89 /* WLCallingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -809,6 +821,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0743223428EBEF32008B3B89 /* music.mp3 in Resources */,
+				0743223528EBEF32008B3B89 /* musicNew.mp3 in Resources */,
 				07431FDD28D9679A008B3B89 /* LaunchScreen.storyboard in Resources */,
 				0743213E28DBFE01008B3B89 /* Localizable.strings in Resources */,
 				07431FDA28D9679A008B3B89 /* Assets.xcassets in Resources */,
@@ -867,6 +881,7 @@
 				0743211728D9B193008B3B89 /* FloatingPointExtensions.swift in Sources */,
 				074320C428D9B192008B3B89 /* CGSizeExtensions.swift in Sources */,
 				074320FA28D9B193008B3B89 /* NotificationCenterExtensions.swift in Sources */,
+				0743223128EAA281008B3B89 /* WLCallingModel.swift in Sources */,
 				0743210A28D9B193008B3B89 /* BinaryFloatingPointExtensions.swift in Sources */,
 				0743210E28D9B193008B3B89 /* MutableCollectionExtensions.swift in Sources */,
 				0743211F28D9B193008B3B89 /* CLLocationExtensions.swift in Sources */,
@@ -882,6 +897,7 @@
 				0743215928DC5E27008B3B89 /* WLInputModel.swift in Sources */,
 				0743210B28D9B193008B3B89 /* FloatExtensions.swift in Sources */,
 				074320DE28D9B193008B3B89 /* UIWindowExtensions.swift in Sources */,
+				0743222F28E989D2008B3B89 /* WLCallingController.swift in Sources */,
 				0743212228D9B193008B3B89 /* NSImageExtensions.swift in Sources */,
 				0743212828D9B24E008B3B89 /* Constants.swift in Sources */,
 				0743211028D9B193008B3B89 /* DictionaryExtensions.swift in Sources */,
